@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: plusjsans;
+    src: url(PlusJakartaSans-VariableFont_wght.ttf);
+}
+
+body
+{
+    background-color: #1a191b; /* arkanın az açık hali: #25242a*/
+    font-family: plusjsans;
+}
+
+#main_header
+{
+    display: flex;
+    align-items: center;    
+    max-width: 95rem;
+    margin: 0 auto;
+    background-color: #6f3f9f;
+}
+
+#main_div
+{ 
+    max-width: 95rem;
+    margin: 0 auto;
+}
+
+#top_logo
+{
+    margin: 1rem;
+    max-height: 2rem;
+}
+
+#uni_secim
+{
+    width: 250px;
+    height: 30px;
+    font-family: plusjsans;
+    font-size: 1em;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+#main_div_baslik
+{
+    width: 20rem;
+    margin: 1rem 0rem;
+    margin-bottom: 1rem;
+}
+
+#main_div_ruler
+{
+    margin-top: -0.5rem; 
+    background-color: #6f3f9f; 
+    height: 0.3rem; 
+    border: none; 
+    border-radius: 10px;
+}
+
+.acik_yazi
+{
+    color: white;
+    font-family: plusjsans;
+}
+
+.koyu_yazi
+{
+    color: #c3c8cc;
+    font-family: plusjsans;
+}
+
+.siyah_yazi
+{
+    color: #1a191b;
+    font-family: plusjsans;
+}
+
+#secim_alani
+{
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+    min-height: 5vh;
+    gap: 1vh;
+    height: minmax(5vh, 10vh);
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 0.2fr));
+    background-color: #25242a;
+}
+
+#sonuc_alani
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 0.2fr)); /*0.2 idi*/ /*20 idi*/
+    gap: 10vh;
+    row-gap: 1vh;
+    margin-top: 1rem;
+    border-radius: 10px;
+    background-color: #25242a;
+}
+
+.menu_item
+{
+    width: 23rem; /*23rem*/
+    margin: 1rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 10px;
+    background-color: #1a191b;
+}
+
+
+

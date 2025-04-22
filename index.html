@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÜniYemek</title>
+    <link rel="icon" href="burger.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div style="margin: 0 1vw;">
+
+        <header id="main_header">
+            <img src="burger.png" id="top_logo">
+            <h1 class="acik_yazi" style="font-size: 1.3em;">ÜniYemek</h1>
+        </header>
+
+        <div id ="main_div">
+    
+            <div id="main_div_baslik">
+                <h1 class="acik_yazi" style="font-size: 1.5em; margin: 1rem 0.1rem;">Üniversite Yemek Menüleri</h1>
+                <hr id="main_div_ruler">
+            </div>
+    
+            <p class="koyu_yazi" style="font-size: 1em;" >Türkiye’deki üniversitelerin günlük yemek menülerini tek bir platformda bulabileceğiniz bu site ile öğle yemeğinde ne çıkacağını kolayca öğrenin! Kampüsünüzdeki yemek listesini hızlıca kontrol edin, farklı üniversitelerin menülerine göz atın ve sağlıklı beslenme planınızı yapın. Lezzet dolu bir kampüs hayatını hemen keşfedin! 🍽️</p>
+            
+            <div id="secim_alani">
+    
+                <select name="universite-secim" id="uni_secim" class="siyah_yazi uni_secimi" size="1">
+                    <option value="0">Hacettepe</option>
+                    <option value="1">Odtü</option>
+                    <option value="2">İstanbul</option>
+                    <option value="3">Ankara</option>
+                    <option value="4">Gazi</option>
+                </select>
+                <select name="ogun-secim" id="uni_secim" class="siyah_yazi ogun_secimi" size="1">
+                    <option value="0">Kahvaltı</option>
+                    <option value="1">Öğlen</option>
+                    <option value="2">Akşam</option>
+                </select>
+                <select name="tarih-secim" id="uni_secim" class="siyah_yazi tarih_secimi" size="1">
+                    <option value="0">14.02.2025</option>
+                </select>
+
+            </div>
+
+           
+            <div id="sonuc_alani">
+                <div class="menu_item">
+                    <p class="acik_yazi" style="font-size: 1.2em;">Tarih burda yazicak</p>
+                    <ul style="list-style-type:disc; padding-left: 2rem; padding-top: 1rem;">
+                        <li class="acik_yazi">asas</li>
+                        <li class="acik_yazi">asas</li>
+                        <li class="acik_yazi">asas</li>
+                        <li class="acik_yazi">asas</li>
+                        <li class="acik_yazi">asas</li>
+                    </ul>
+                </div>
+                <div class="menu_item">
+                    <p class="acik_yazi" style="font-size: 1.2em;">Tarih burda yazicak</p>
+                    <ul style="list-style-type:disc; padding-left: 2rem; padding-top: 1rem;">
+                        <li class="acik_yazi">asas</li>
+                        <li class="acik_yazi">asas</li>
+                    </ul>
+                </div>
+                <div class="menu_item">
+                    <p class="acik_yazi" style="font-size: 1.2em;">Tarih burda yazicak</p>
+                    <ul style="list-style-type:disc; padding-left: 2rem; padding-top: 1rem;">
+                        <li class="acik_yazi">asas</li>
+                        <li class="acik_yazi">asas</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
